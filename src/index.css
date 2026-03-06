@@ -1,0 +1,123 @@
+html,body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+
+.container{
+  max-width: 317px;
+  text-align: center;
+  background-color: #F5F5F5;
+  margin: 0 auto;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Info-component-css */
+
+/* .header{
+  padding: 1em;
+} */
+
+.profile-pic{
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+h1{
+  margin-bottom:0;
+  font-size: 1.563rem;
+}
+
+.role{
+  color: #F47D27 ;
+  margin-top: 0.5em;
+  font-size: .8rem;
+}
+
+.website{
+  margin-top: 1em;
+  font-size:  0.64rem;
+}
+
+.contact-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1.5em;
+}
+
+.contact-links > .email-link,
+.contact-links > .linkedin-link{
+  text-decoration: none;
+  padding: .5em 2em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;  
+  font-size: .875rem;
+}
+
+.email-link{
+  color: #1E1F26;
+  border: 1px lightgray solid;
+}
+
+.email-link:hover{
+  background-color: #fefefe;
+}
+
+.linkedin-link{
+  color: white;
+  background-color: #297FE5;
+}
+
+.linkedin-link:hover{
+  background-color: #2774d2;
+}
+
+.email-icon,
+.linkedin-icon{
+  width: 24px;
+  height: 20px;
+}
+
+/* About-and-interest-component-css */
+
+.about-section,
+.interest-section{
+  text-align: left;
+  padding: 0 1.5em ;
+}
+
+.about-section{
+  margin-top: 2em;
+}
+
+.interest-section{
+  margin-bottom: 2em;
+}
+
+.about-section > h2,
+.interest-section > h2{
+  font-size: 1rem;
+}
+
+.about-section > p,
+.interest-section > p{
+  font-size: .64rem;
+  line-height: 1.5;
+}
+
+/* footer-component-css */
+
+.footer-section{
+  background-color:#D5D4D8;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
