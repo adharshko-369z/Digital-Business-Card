@@ -1,8 +1,9 @@
+import profile from "./src/assets/Adharshko.jpeg"
 
 export default function Info(){
   return(
     <header className="header">
-      <img className="profile-pic" src="./src/assets/Adharshko.jpeg"/>
+      <img className="profile-pic" src={profile}/>
       <h1>Adharsh K O</h1>
       <p className="role">Frontend Developer</p>
       <p className="website">adharshko.website</p>
